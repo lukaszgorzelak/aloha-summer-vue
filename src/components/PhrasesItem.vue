@@ -50,7 +50,7 @@
                 />
             </div>
             <div class="flex justify-end">
-                <img :src="`/src/assets/${singleItem.category}.png`">
+                <img :src="`./src/assets/${singleItem.category}.png`">
             </div>
         </div>
     </div>
@@ -146,5 +146,9 @@
             margin-top: 0.5rem;
             color: red;
         }
+    }
+
+    img {
+        width: 10rem;
     }
 </style>
