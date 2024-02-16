@@ -50,7 +50,7 @@
                 />
             </div>
             <div class="flex justify-end">
-                <img :src="`./${singleItem.category}.png`">
+                <img :src="`./assets/img/${singleItem.category}.png`">
             </div>
         </div>
     </div>
